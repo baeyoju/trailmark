@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Local Browser Tracker",
+  "version": "1.0.0",
+  "description": "Keeps a private, local record of pages you visit.",
+  "permissions": ["webNavigation"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "background": { "service_worker": "background.js" }
+}
