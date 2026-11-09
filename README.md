@@ -1,6 +1,5 @@
-# Local Browser Tracker
-
-A local first browsing history tracker with a React dashboard, Flask API, Supabase PostgreSQL database, and browser extensions for Chromium based browsers and Firefox. The extensions send committed top level HTTP and HTTPS navigations to the Flask service running on your computer. The service saves each visit to your Supabase project and records the hostname of the computer running Flask.
+# trailmark
+A local first browsing history tracker with a React dashboard, Flask API, Supabase PostgreSQL database, and browser extensions for Chromium based browsers and Firefox.
 
 ## Configure Supabase
 
